@@ -10,6 +10,8 @@ pip install flask
 ```
 pip install dlib
 ```
+> [!WARNING]
+> if your platform is windows you have to install cemake and c++ in your windows
 ```
 pip install face_recognition
 ```
@@ -25,11 +27,6 @@ Details on the process of uploading and storing facial images, including support
 ### Face Recognition Algorithm
 Explanation of the chosen face detection algorithm or model.
 
-### Matching and Identity Verification
-Elaboration on how the input image matches stored images in the database and verifies identity.
-
-### Passwordless Authentication
-Instructions for authenticating without email and password.
 
 #### Testing and Assurance of Functionality
 Guide on running tests and ensuring the correctness of the project's functionality.
