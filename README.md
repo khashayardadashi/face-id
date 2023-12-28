@@ -10,6 +10,9 @@ pip install flask
 ```
 pip install dlib
 ```
+```
+pip install face_recognition
+```
 ### Registration and Login
 Instructions for registering and logging in using facial recognition.
 
