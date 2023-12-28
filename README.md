@@ -15,17 +15,9 @@ pip install face_recognition
 ```
 git clone https://github.com/khashayardadashi/face-id.git
 ```
-> [!WARNING]
-> if your platform is windows you have to install cemake and c++ in your windows
-
-### Registration and Login
-Instructions for registering and logging in using facial recognition.
-
-### Uploading and Storing Images
-Details on the process of uploading and storing facial images, including supported formats.
-
 ### Face Recognition Algorithm
-Explanation of the chosen face detection algorithm or model.
+> [!TIP]
+> This project is written using haarcascades artificial intelligence algorithm
 
 
 #### Testing and Assurance of Functionality
