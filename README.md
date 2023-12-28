@@ -1,5 +1,5 @@
-#Face Recognition Authentication
-###Introduction
+# Face Recognition Authentication
+### Introduction
 Briefly outline the project's main goal and potential use cases.
 
 Installation and Setup
