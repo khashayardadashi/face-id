@@ -13,6 +13,9 @@ pip install dlib
 ```
 pip install face_recognition
 ```
+```
+git clone https://github.com/khashayardadashi/face-id.git
+```
 ### Registration and Login
 Instructions for registering and logging in using facial recognition.
 
