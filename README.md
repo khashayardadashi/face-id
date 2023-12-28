@@ -5,11 +5,11 @@
 
 ### Installation and Setup
 > [!IMPORTANT]
-```
+> ```
 git status
 git add
 git commit
-```
+ ```
 
 ### Registration and Login
 Instructions for registering and logging in using facial recognition.
