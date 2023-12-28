@@ -6,7 +6,6 @@
 ### Installation and Setup
 ```
 pip install flask
-
 ```
 ```
 pip install dlib
