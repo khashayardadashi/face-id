@@ -1,9 +1,9 @@
 # Face Recognition Authentication
 ### Introduction
-Welcome to the Face Recognition Authentication project! This project aims to provide a secure and seamless identity verification process using facial recognition technology
+> Welcome to the Face Recognition Authentication project! This project aims to provide a secure and seamless identity verification process using facial recognition technology
 
 ### Installation and Setup
-Guide on installing Flask and required packages.
+
 
 ### Registration and Login
 Instructions for registering and logging in using facial recognition.
