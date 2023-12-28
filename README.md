@@ -1,6 +1,6 @@
 # Face Recognition Authentication
 ### Introduction
-Briefly outline the project's main goal and potential use cases.
+Welcome to the Face Recognition Authentication project! This project aims to provide a secure and seamless identity verification process using facial recognition technology
 
 ### Installation and Setup
 Guide on installing Flask and required packages.
