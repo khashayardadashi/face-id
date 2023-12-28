@@ -9,14 +9,15 @@ pip install flask
 ```
 pip install dlib
 ```
-> [!WARNING]
-> if your platform is windows you have to install cemake and c++ in your windows
 ```
 pip install face_recognition
 ```
 ```
 git clone https://github.com/khashayardadashi/face-id.git
 ```
+> [!WARNING]
+> if your platform is windows you have to install cemake and c++ in your windows
+
 ### Registration and Login
 Instructions for registering and logging in using facial recognition.
 
