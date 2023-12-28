@@ -5,7 +5,8 @@
 
 ### Installation and Setup
 > [!IMPORTANT]
-> ```
+>
+```
 git status
 git add
 git commit
