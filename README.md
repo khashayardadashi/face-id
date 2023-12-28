@@ -1,5 +1,6 @@
 # Face Recognition Authentication
 ### Introduction
+> [!NOTE]
 > Welcome to the Face Recognition Authentication project! This project aims to provide a secure and seamless identity verification process using facial recognition technology
 
 ### Installation and Setup
