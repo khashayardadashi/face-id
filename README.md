@@ -18,10 +18,3 @@ git clone https://github.com/khashayardadashi/face-id.git
 ### Face Recognition Algorithm
 > [!TIP]
 > This project is written using haarcascades artificial intelligence algorithm
-
-
-#### Testing and Assurance of Functionality
-Guide on running tests and ensuring the correctness of the project's functionality.
-
-### Usage and Security Considerations
-Recommendations and tips for the secure use of face recognition for authentication.
