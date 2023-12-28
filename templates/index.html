@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-nU14brUcp6StFntEOOEBvcJm4huWjB0OcIeQ3fltAfSmuZFrkAif0T+UtNGlKKQv" crossorigin="anonymous">
+    <title>login-face</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center align-items-center mt-3">
+            <div class="col-md-12 d-flex justify-content-center">
+            <video id="video" autoplay width="440" height="280"></video>
+            <canvas id="canavs" width="440" height="280" style="display: none;"></canvas>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <button onclick="capture()" class="btn btn-primary m-3">capture your picture</button>
+                <button onclick="login()" class="btn btn-primary m-3">login now</button>
+            </div>
+        </div>
+        <div class="row justify-content-center d-flex align-items-center">
+            <div class="col-md-4  m-2 justify-content-center d-flex">
+                <input type="text" class="form-control border-3" id="name" required name="" placeholder="register your name">
+            </div>
+            <div class="col-md-2  justify-content-center d-flex">
+                <button onclick="register()" class="btn btn-primary w-100">register</button>
+            </div>
+        </div>
+    
+    
+    <br>
+    
+
+    <br>
+    <br>
+    
+    </div>
+    <script src="{{ url_for('static' , filename='js/app.js')}}"></script>
+</body>
+</html>
