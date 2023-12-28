@@ -4,7 +4,12 @@
 > Welcome to the Face Recognition Authentication project ! This project aims to provide a secure and seamless identity verification process using facial recognition technology.
 
 ### Installation and Setup
-
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
 
 ### Registration and Login
 Instructions for registering and logging in using facial recognition.
