@@ -3,10 +3,10 @@
 > [!NOTE]
 > This project aims to provide a secure and seamless identity verification process using facial recognition technology.
 ### Installation and Setup
-```
+``` bash
 pip install flask
 ```
-```
+``` bash
 pip install dlib
 ```
 ```
