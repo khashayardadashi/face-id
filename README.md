@@ -9,10 +9,10 @@ pip install flask
 ``` bash
 pip install dlib
 ```
-```
+```bash
 pip install face_recognition
 ```
-```
+```bash
 git clone https://github.com/khashayardadashi/face-id.git
 ```
 ### Face Recognition Algorithm
