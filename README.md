@@ -1,9 +1,10 @@
 # Face Recognition Authentication
-<p align="center">
+<p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
   </a>
 </p>
+
 ### Introduction
 > [!NOTE]
 > This project aims to provide a secure and seamless identity verification process using facial recognition technology.
