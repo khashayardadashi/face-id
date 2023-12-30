@@ -23,3 +23,7 @@ git clone https://github.com/khashayardadashi/face-id.git
 ### Face Recognition Algorithm
 > [!TIP]
 > This project is written using haarcascades artificial intelligence algorithm
+
+### Developed tools
+> [!NOTE]
+> This program is written using Python's Flask framework, along with the OpenCV library and the Haar Cascade artificial intelligence algorithm.
