@@ -30,4 +30,7 @@ git clone https://github.com/khashayardadashi/face-id.git
 
 ### how to use?
 > [!IMPORTANT]
-> This program is written using Python's Flask framework, along with the OpenCV library and the Haar Cascade artificial intelligence algorithm.
+> To use, you need to place the following JavaScript code in your static JavaScript file.
+``` js
+console.lg(1)
+```
