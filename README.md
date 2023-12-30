@@ -1,7 +1,7 @@
 # Face Recognition Authentication
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+    <img src="https://skillicons.dev/icons?i=git,python,c++,flask,ai" />
   </a>
 </p>
 
