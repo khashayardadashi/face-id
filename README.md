@@ -1,6 +1,4 @@
 # Face Recognition Authentication
-![Uploading image.png…]()
-
 ### Introduction
 > [!NOTE]
 > This project aims to provide a secure and seamless identity verification process using facial recognition technology.
