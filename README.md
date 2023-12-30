@@ -121,3 +121,4 @@ const dataURItoBlob=(datauri)=>{
     return new Blob([ab] , {type:mimestring})
 }
 ```
+### result of project
