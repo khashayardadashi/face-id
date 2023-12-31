@@ -112,8 +112,6 @@ On the server side (in your backend code), you need to handle the incoming POST 
 
 Remember to adjust the code according to your server's API and the framework you are using. Additionally, ensure that your server supports handling file uploads and saving them appropriately.
 
-> [!WARNING]
-> If you encounter issues installing dlib on the Windows operating system, first install Visual Studio and download C++ from the Downloads section. Alternatively, you can install the C++ extension and CMake in Visual Studio Code.
 > [!IMPORTANT]
 > The process you described involves a combination of front-end (JavaScript) and back-end (Flask with OpenCV and face_recognition). Here's a high-level overview:
 
