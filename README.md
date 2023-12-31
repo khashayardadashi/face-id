@@ -52,7 +52,8 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 > [!IMPORTANT]
-> To check if the webcam is available on the user's device using JavaScript, you can use the `navigator.mediaDevices.getUserMedia` API. Here's a basic example:
+> To check if the webcam is available on the user's device using JavaScript, you can use the `navigator.mediaDevices.getUserMedia` API.
+> This code attempts to access the user's webcam and logs whether the access is granted or denied. Keep in mind that modern browsers may require a secure context (HTTPS) for accessing certain features like the webcam.
 
 ```javascript
 // Check if the browser supports the mediaDevices API
@@ -72,8 +73,6 @@ if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
   // Inform the user that their browser doesn't support webcam access
 }
 ```
-
-This code attempts to access the user's webcam and logs whether the access is granted or denied. Keep in mind that modern browsers may require a secure context (HTTPS) for accessing certain features like the webcam.
 
 > [!WARNING]
 > If you encounter issues installing dlib on the Windows operating system, first install Visual Studio and download C++ from the Downloads section. Alternatively, you can install the C++ extension and CMake in Visual Studio Code.
