@@ -52,7 +52,7 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 > [!IMPORTANT]
-> To check if the webcam is available on the user's device using JavaScript, you can use the `navigator.mediaDevices.getUserMedia` API. Here's a basic example:
+> To check if the webcam is available on the user's device using JavaScript, you can use the `navigator.mediaDevices.getUserMedia` API. Here's a basic example :
 
 ```javascript
 // Check if the browser supports the mediaDevices API
@@ -115,7 +115,7 @@ Remember to adjust the code according to your server's API and the framework you
 > [!IMPORTANT]
 > The process you described involves a combination of front-end (JavaScript) and back-end (Flask with OpenCV and face_recognition). Here's a high-level overview:
 
-1. **Front-End (JavaScript)**:
+1. **Front-End (JavaScript)** :
 
    ```javascript
    // Assume you have a form with id="loginForm" and input type="file" with id="webcamImage"
