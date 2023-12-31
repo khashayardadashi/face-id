@@ -73,6 +73,40 @@ if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
   // Inform the user that their browser doesn't support webcam access
 }
 ```
+> [!IMPORTANT]
+> Sure, to achieve that, you can use the Fetch API in JavaScript to send a POST request to your server's "register" route. Assuming you have a form with an input field for uploading an image, here's a basic example:
+
+```javascript
+// Assuming you have an HTML form with id="registrationForm" and input type="file" with id="profileImage"
+const registrationForm = document.getElementById('registrationForm');
+const profileImageInput = document.getElementById('profileImage');
+
+registrationForm.addEventListener('submit', function (event) {
+  event.preventDefault();
+
+  const formData = new FormData();
+  formData.append('profileImage', profileImageInput.files[0]);
+
+  // Replace 'your-register-route' with the actual route on your server
+  fetch('your-register-route', {
+    method: 'POST',
+    body: formData,
+  })
+    .then(response => response.json())
+    .then(data => {
+      console.log('Image uploaded successfully:', data);
+      // Handle the response as needed, e.g., redirect to login page
+    })
+    .catch(error => {
+      console.error('Error uploading image:', error);
+      // Handle errors appropriately
+    });
+});
+```
+
+On the server side (in your backend code), you need to handle the incoming POST request to the "register" route and save the uploaded image. The server-side implementation will depend on the technology you're using (Node.js, Python, etc.).
+
+Remember to adjust the code according to your server's API and the framework you are using. Additionally, ensure that your server supports handling file uploads and saving them appropriately.
 
 > [!WARNING]
 > If you encounter issues installing dlib on the Windows operating system, first install Visual Studio and download C++ from the Downloads section. Alternatively, you can install the C++ extension and CMake in Visual Studio Code.
