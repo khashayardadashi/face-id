@@ -182,7 +182,7 @@ This is a simplified example, and you need to adapt it to your specific needs, i
 > [!IMPORTANT]
 > Certainly, you can modify the Flask route to handle the case where face identification is unsuccessful and send a JSON response with the status set to `false`. Additionally, you can include logic on the front end to refresh the page upon receiving this response. Here's an updated example:
 
-**Front-End (JavaScript)**:
+**Front-End (JavaScript)** :
 
 ```javascript
 const loginForm = document.getElementById('loginForm');
@@ -217,7 +217,7 @@ loginForm.addEventListener('submit', function (event) {
 });
 ```
 
-**Back-End (Flask with OpenCV and face_recognition)**:
+**Back-End (Flask with OpenCV and face_recognition)** :
 
 ```python
 from flask import Flask, request, jsonify
