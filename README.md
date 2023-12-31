@@ -75,8 +75,6 @@ if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
 
 This code attempts to access the user's webcam and logs whether the access is granted or denied. Keep in mind that modern browsers may require a secure context (HTTPS) for accessing certain features like the webcam.
 
-Make sure to handle the permissions and errors appropriately based on your application's requirements.
-
 > [!WARNING]
 > If you encounter issues installing dlib on the Windows operating system, first install Visual Studio and download C++ from the Downloads section. Alternatively, you can install the C++ extension and CMake in Visual Studio Code.
 ### result of project
