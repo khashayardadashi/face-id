@@ -145,7 +145,7 @@ Remember to adjust the code according to your server's API and the framework you
    });
    ```
 
-2. **Back-End (Flask with OpenCV and face_recognition)**:
+2. **Back-End (Flask with OpenCV and face_recognition)** :
 
    - Handle the POST request to the "login" route.
    - Retrieve the uploaded image and process it using OpenCV and face_recognition.
