@@ -31,5 +31,26 @@ git clone https://github.com/khashayardadashi/face-id.git
 ### how to use?
 > [!IMPORTANT]
 > To use, you need to place the following JavaScript code in your static JavaScript file.
->If you encounter issues installing dlib on the Windows operating system, first install Visual Studio and download C++ from the Downloads section. Alternatively, you can install the C++ extension and CMake in Visual Studio Code.
+Certainly, you can create a Flask file and define the routes for login and register as follows:
+
+```python
+from flask import Flask, request
+
+app = Flask(__name__)
+
+@app.route('/login', methods=['POST'])
+def login():
+    # Your login logic here
+    return 'Login route accessed via POST method'
+
+@app.route('/register', methods=['POST'])
+def register():
+    # Your registration logic here
+    return 'Register route accessed via POST method'
+
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+
+In this example, the `login` and `register` routes are configured to only accept POST requests. Adjust the logic within each route according to your application's requirements.
 ### result of project
