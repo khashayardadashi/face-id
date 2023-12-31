@@ -53,4 +53,7 @@ if __name__ == '__main__':
 ```
 
 In this example, the `login` and `register` routes are configured to only accept POST requests. Adjust the logic within each route according to your application's requirements.
+
+> [!WARNING]
+> If you encounter issues installing dlib on the Windows operating system, first install Visual Studio and download C++ from the Downloads section. Alternatively, you can install the C++ extension and CMake in Visual Studio Code.
 ### result of project
