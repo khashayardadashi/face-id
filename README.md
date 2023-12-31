@@ -52,8 +52,7 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 > [!IMPORTANT]
-> To check if the webcam is available on the user's device using JavaScript, you can use the `navigator.mediaDevices.getUserMedia` API.
-> This code attempts to access the user's webcam and logs whether the access is granted or denied. Keep in mind that modern browsers may require a secure context (HTTPS) for accessing certain features like the webcam.
+> To check if the webcam is available on the user's device using JavaScript, you can use the `navigator.mediaDevices.getUserMedia` API. Here's a basic example:
 
 ```javascript
 // Check if the browser supports the mediaDevices API
@@ -73,6 +72,11 @@ if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
   // Inform the user that their browser doesn't support webcam access
 }
 ```
+
+This code attempts to access the user's webcam and logs whether the access is granted or denied. Keep in mind that modern browsers may require a secure context (HTTPS) for accessing certain features like the webcam.
+
+Make sure to handle the permissions and errors appropriately based on your application's requirements.
+
 > [!IMPORTANT]
 > Sure, to achieve that, you can use the Fetch API in JavaScript to send a POST request to your server's "register" route. Assuming you have a form with an input field for uploading an image, here's a basic example:
 
