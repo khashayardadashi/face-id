@@ -31,6 +31,5 @@ git clone https://github.com/khashayardadashi/face-id.git
 ### how to use?
 > [!IMPORTANT]
 > To use, you need to place the following JavaScript code in your static JavaScript file.
-
 >If you encounter issues installing dlib on the Windows operating system, first install Visual Studio and download C++ from the Downloads section. Alternatively, you can install the C++ extension and CMake in Visual Studio Code.
 ### result of project
