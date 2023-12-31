@@ -51,8 +51,31 @@ def register():
 if __name__ == '__main__':
     app.run(debug=True)
 ```
+> [!IMPORTANT]
+> To check if the webcam is available on the user's device using JavaScript, you can use the `navigator.mediaDevices.getUserMedia` API. Here's a basic example:
 
-In this example, the `login` and `register` routes are configured to only accept POST requests. Adjust the logic within each route according to your application's requirements.
+```javascript
+// Check if the browser supports the mediaDevices API
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  // Access the user's media devices (e.g., webcam)
+  navigator.mediaDevices.getUserMedia({ video: true })
+    .then(function (stream) {
+      console.log('Webcam access granted');
+      // Do something with the webcam stream if needed
+    })
+    .catch(function (error) {
+      console.error('Webcam access denied or not available', error);
+      // Handle errors or inform the user
+    });
+} else {
+  console.error('getUserMedia not supported on this browser');
+  // Inform the user that their browser doesn't support webcam access
+}
+```
+
+This code attempts to access the user's webcam and logs whether the access is granted or denied. Keep in mind that modern browsers may require a secure context (HTTPS) for accessing certain features like the webcam.
+
+Make sure to handle the permissions and errors appropriately based on your application's requirements.
 
 > [!WARNING]
 > If you encounter issues installing dlib on the Windows operating system, first install Visual Studio and download C++ from the Downloads section. Alternatively, you can install the C++ extension and CMake in Visual Studio Code.
