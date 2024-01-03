@@ -231,9 +231,6 @@ def login():
     # Handle the uploaded image
     webcam_image = request.files['webcamImage']
     
-    # Process the image using OpenCV and face_recognition
-    # ...
-    
     # Assuming you have identified the user
     identified_user = {
         'username': 'john_doe',
@@ -252,6 +249,4 @@ def login():
 if __name__ == '__main__':
     app.run(debug=True)
 ```
-
 This way, if the identification status is `false`, the page will be refreshed. Adjust the logic in the Flask route based on your specific face detection and recognition implementation.
-### result of project
