@@ -67,7 +67,7 @@ const login =()=>{
         console.log(data);
         if(data.success){
             alert("login success")
-            window.location.href=`/panel?username=${nameinput.value}`;
+            window.location.href=`/panel?username=${data.name}`;
         }
         else{
             alert("sorry failed login")
