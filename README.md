@@ -32,6 +32,6 @@ git clone https://github.com/khashayardadashi/face-id.git
 > This program is written using Python's Flask framework, along with the OpenCV library and the Haar Cascade artificial intelligence algorithm.
 
 ### Version 
-2023 -> 1.1.0
-2024 -> 1.5.0 ( Edit Ui )
+2023 -> 1.1.0 \n
+2024 -> 1.5.0 ( Edit Ui ) \n
 2025 -> 2.1.0 ( deepface )
