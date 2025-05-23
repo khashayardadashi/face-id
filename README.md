@@ -15,6 +15,9 @@ pip install flask
 pip install dlib
 ```
 ```bash
+pip install cmake
+```
+```bash
 pip install face_recognition
 ```
 ```bash
@@ -27,3 +30,8 @@ git clone https://github.com/khashayardadashi/face-id.git
 ### Developed tools
 > [!NOTE]
 > This program is written using Python's Flask framework, along with the OpenCV library and the Haar Cascade artificial intelligence algorithm.
+
+### Version 
+2023 -> 1.1.0
+2024 -> 1.5.0 ( Edit Ui )
+2025 -> 2.1.0 ( deepface )
