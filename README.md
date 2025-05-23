@@ -27,13 +27,14 @@ git clone https://github.com/khashayardadashi/face-id.git
 
 face-id/
 │
-├── app.py              # Main Flask application file
-├── requirements.txt    # List of required Python libraries
+├── app.py              # Main Flask application
+├── requirements.txt    # List of required Python dependencies
 ├── static/
-│   └── uploads/        # Uploaded face images
+│   └── uploads/        # Folder for storing uploaded face images
 ├── templates/
-│   ├── index.html      # User registration and login page
-│   └── panel.html      # User dashboard after login
+│   ├── index.html      # Registration and login page
+│   └── panel.html      # User dashboard after successful login
+
 
 ### Face Recognition Algorithm
 > [!TIP]
