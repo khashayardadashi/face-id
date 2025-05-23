@@ -41,5 +41,5 @@ git clone https://github.com/khashayardadashi/face-id.git
 | ---- | ------- | --------------------------------------------------------------------------- |
 | 2023 | 1.1.0   | Initial release with basic face recognition                                 |
 | 2024 | 1.5.0   | UI improvements and design updates                                          |
-| 2025 | 2.1.0   | Integrated DeepFace with liveness detection and advanced facial recognition |
+| 2025 | 2.1.0   | Integrated DeepFace with liveness detection and advanced facial recognition (soon) |
 
