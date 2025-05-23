@@ -23,18 +23,9 @@ pip install face_recognition
 ```bash
 git clone https://github.com/khashayardadashi/face-id.git
 ```
-### Structure
 
-face-id/
-│
-├── app.py              # Main Flask application
-├── requirements.txt    # List of required Python dependencies
-├── static/
-│   └── uploads/        # Folder for storing uploaded face images
-├── templates/
-│   ├── index.html      # Registration and login page
-│   └── panel.html      # User dashboard after successful login
-
+> [!NOTE]
+> we have to install C++ in your computer to use face_recognition library
 
 ### Face Recognition Algorithm
 > [!TIP]
