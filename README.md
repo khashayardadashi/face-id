@@ -44,6 +44,7 @@ git clone https://github.com/khashayardadashi/face-id.git
 | 2025 | 2.1.0   | Integrated DeepFace with liveness detection and advanced facial recognition (soon) |
 
 
+---
 
 ### 🧠 مفهوم کلی : بردار عددی چهره چیه ؟
 
